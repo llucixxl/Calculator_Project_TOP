@@ -33,3 +33,13 @@ function divide(a, b) {
 let number1;
 let operator;
 let number2;
+
+// End of variable for each part of the operation
+
+// Operate function that calls one of the above functions
+
+function operate(number1, operator, number2) {
+  return operator(number1, number2);
+}
+
+console.log(operate(1, add, 4));
