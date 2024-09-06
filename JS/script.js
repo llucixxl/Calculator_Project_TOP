@@ -43,3 +43,5 @@ function operate(number1, operator, number2) {
 }
 
 console.log(operate(1, add, 4));
+
+// End of operate function
